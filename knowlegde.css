@@ -1,0 +1,36 @@
+/* Knowledge Page Styles */
+.knowledge-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .knowledge-container h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .knowledge-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding-top: 30px;
+  }
+  
+  .knowledge-card {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .knowledge-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .knowledge-card h2 {
+    font-size: 24px;
+    color: #333;
+}
