@@ -4,8 +4,8 @@ This is a brief description of your project.
 
 ## Preview
 
-![Project Preview](1.png)
-[text](2.pngs)
+![Project Preview](2.png)
+
 ## How to Run
 
 1. Step 1
