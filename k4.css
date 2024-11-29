@@ -1,0 +1,228 @@
+main {
+    padding: 20px;
+  }
+  
+  /* Activities Section */
+  .activities-section {
+    margin: 20px 0;
+  }
+  
+  .activities-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.card-container > .card:nth-child(4){
+    grid-column: span 3 ;
+    justify-self: stretch;
+
+
+}
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  /* Activities Section */
+  .activities-section {
+    margin: 20px 0;
+  }
+  
+  .activities-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.card-container > .card:nth-child(4){
+    grid-column: span 3 ;
+    justify-self: stretch;
+
+
+}
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  /* Activities Section */
+  .activities-section {
+    margin: 20px 0;
+  }
+  
+  .activities-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.card-container > .card:nth-child(4){
+    grid-column: span 3 ;
+    justify-self: stretch;
+
+
+}
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  /* Main Content */
+main {
+    padding: 2em;
+}
+
+h2, h3 {
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #005f73;
+    color: white;
+    padding: 1em 0;
+    margin-top: 20px;
+}
+  
+
+  
