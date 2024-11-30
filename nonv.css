@@ -66,26 +66,4 @@ main {
   }
   
 
-  /* Main Content */
-main {
-    padding: 2em;
-}
-
-h2, h3 {
-    color: #005f73;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style: disc;
-    margin-left: 20px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    background: #005f73;
-    color: white;
-    padding: 1em 0;
-    margin-top: 20px;
-}
+  

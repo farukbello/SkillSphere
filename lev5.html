@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SkillSphere</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lev6.css">
+      </head>
+<body>
+      <!-- Updated Header -->
+<header>
+    <div class="container">
+      <div class="logo">
+        <h1>Skills<span>Sphere</span>.</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Activities.html">Activities</a></li>
+          <li class="dropdown">
+            <a href="#class">Servies</a>
+            <ul class="dropdown-menu">
+              <li><a href="knowledge.html">knowledge</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="resources.html">Resources</a></li>
+            </ul>
+          </li>
+          <li><a href="#pricing">About</a></li>
+        </ul>
+        <input type="text" placeholder="Search..." class="search-bar">
+        <button class="login-btn">Login or Sign Up</button>
+        <button class="hamburger-menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+  <body>
+  <div class="container">
+    <h1>14-Day Attendance Tracker</h1>
+    <div id="attendance-list">
+      <!-- Days listed below -->
+      <div class="day" data-day="1">
+        <span>Day 1</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="2">
+        <span>Day 2</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="3">
+        <span>Day 3</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="4">
+        <span>Day 4</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="5">
+        <span>Day 5</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="6">
+        <span>Day 6</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="7">
+        <span>Day 7</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="8">
+        <span>Day 8</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="9">
+        <span>Day 9</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="10">
+        <span>Day 10</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="11">
+        <span>Day 11</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="12">
+        <span>Day 12</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="13">
+        <span>Day 13</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+      <div class="day" data-day="14">
+        <span>Day 14</span>
+        <button onclick="markAttendance(this)">Mark Attendance</button>
+      </div>
+    </div>
+    <div class="summary">
+      Total Days Attended: <span id="total-attended">0</span> / 14<br>
+      Attendance Percentage: <span id="attendance-percentage">0%</span>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript for functionality
+    const totalAttended = document.getElementById('total-attended');
+    const attendancePercentage = document.getElementById('attendance-percentage');
+
+    let attendanceCount = 0;
+
+    // Function to mark attendance
+    function markAttendance(button) {
+      const dayDiv = button.parentElement;
+
+      // Check if the button was already clicked
+      if (!dayDiv.classList.contains('completed')) {
+        dayDiv.classList.add('completed');
+        button.disabled = true;
+
+        // Update attendance count and percentage
+        attendanceCount++;
+        totalAttended.textContent = attendanceCount;
+        attendancePercentage.textContent = `${((attendanceCount / 14) * 100).toFixed(2)}%`;
+      }
+    }
+  </script>
+  
+
+
+
+</body>
+</html>
